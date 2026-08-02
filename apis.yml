@@ -1,19 +1,50 @@
 aid: ticketrev
 name: TicketRev
-description: TicketRev is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TicketRev (TICKR Holdings, Inc.) is a buyer-first ticketing platform for live sports and
+  entertainment, founded in 2022. Its marketplace lets fans name their own price on tickets while
+  giving teams and venues offer-based selling, flow purchasing, seat upgrades, and premium-inventory
+  tools. Products span four solutions - Core (offer-based purchases), Breeze (flow purchasing),
+  Upgrades (in-seat upgrades), and Premium (premium seating revenue) - and are used by MLB clubs
+  including the Houston Astros, Miami Marlins, and Tampa Bay Rays. TicketRev is backed by Soma
+  Capital, Groove Capital, 500 Global, and Techstars. The company publicly commits to SOC 2 Type II
+  and PCI DSS security and compliance. No public developer API surface was found at the time of
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/ticketrev/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-legal-entity: TICKR Holdings, Inc.
+x-founded: '2022'
 x-backed-by:
 - 500-global
+- soma-capital
+- groove-capital
+- techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/64e8a789efa42eaf8fe4d068/64eca33042bb000fd2f19934_Webclip.png
 tags:
 - Company
+- Ticketing
+- Sports
+- Entertainment
+- Marketplace
+- Events
+- Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://ticketrev.com
+  url: https://www.ticketrev.com
+- type: About
+  url: https://www.ticketrev.com/about-us
+- type: Login
+  url: https://ticketrev.app/manage/login
+- type: Support
+  url: mailto:Support@ticketrev.com
+- type: TermsOfService
+  url: https://www.ticketrev.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.ticketrev.com/privacy-policy
+- type: Compliance
+  url: https://www.ticketrev.com/security-and-compliance-commitments
+- type: TrustCenter
+  url: security/ticketrev-trust-center.yml
+- type: DomainSecurity
+  url: security/ticketrev-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.ticketrev.com/security-and-compliance-commitments
+url: https://www.ticketrev.com/security-and-compliance-commitments
+legal_entity: TICKR Holdings, Inc. (d/b/a TicketRev)
+certifications:
+- SOC 2 Type II
+- PCI DSS
+summary: >-
+  TicketRev publishes a Security and Compliance Commitments page stating its
+  security measures align with SOC 2 Type II standards (data confidentiality,
+  integrity, availability) and that it adheres to the Payment Card Industry
+  Data Security Standard (PCI DSS) for cardholder data, with network security,
+  access control, and security policy management controls.
+evidence:
+- source: https://www.ticketrev.com/security-and-compliance-commitments
+  keywords:
+  - soc 2 type ii
+  - pci dss
+  - cardholder data
+  - access control
+  - security policy
