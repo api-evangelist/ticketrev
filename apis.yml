@@ -43,6 +43,14 @@ tags:
 - Sports
 - Entertainment
 - Marketplace
+- Event
+- Payments
+tags_raw:
+- Company
+- Ticketing
+- Sports
+- Entertainment
+- Marketplace
 - Events
 - Payments
 apis: []
